@@ -1,0 +1,27 @@
+{
+  "name": "serverless-s3-encryption",
+  "version": "1.0.0",
+  "description": "set encryption settings on s3 buckets in your serverless stuack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "serverless-plugin",
+    "plugin",
+    "s3",
+    "aws",
+    "encryption"
+  ],
+  "author": "Mark Vayngrib <mark@tradle.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "co": "^4.6.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.175.0"
+  }
+}
