@@ -4,6 +4,10 @@ set or remove the encryption settings on the s3 buckets in your serverless stack
 
 This plugin runs on the `after:deploy` hook, but you can also run it manually with: `sls s3-encryption update`
 
+## Install
+
+`npm install --save-dev serverless-s3-encryption`
+
 ## Usage
 
 See the example below for how to modify your `serverless.yml`
