@@ -26,8 +26,8 @@ custom:
       MyEncryptedBucket:
         # see: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putBucketEncryption-property
         # accepted values: none, AES256, aws:kms
-        SSEEncryption: AES256
-        # only if SSEEncryption is aws:kms
+        SSEAlgorithm: AES256
+        # only if SSEAlgorithm is aws:kms
         KMSMasterKeyID: STRING_VALUE 
 
 resources:
