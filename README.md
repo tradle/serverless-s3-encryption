@@ -21,7 +21,7 @@ plugins:
 
 custom:
   # ...
-  serverless-s3-encryption:
+  s3-encryption:
     buckets:
       MyEncryptedBucket:
         # see: http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putBucketEncryption-property
